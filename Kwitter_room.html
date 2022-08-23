@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+<script src="Kwitter_room.js"></script>
+</head>
+<body>
+<button id="logout_button" class="btn btn-danger" onclick="Logout()"> Log Out </button>
+
+<h4> User Name: 
+	<span id="username"> </span>
+</h4>
+
+<div class="container"> 
+<h2>Please Enter The Room Name</h2>
+<input type="text" id="room_name" placeholder="Create A Room" class="form-control"> 
+<button id="AddroomName" class="btn btn-success" onclick="Addroom()"> Add Room </button>
+</div> 
+<div id="rooms"> </div>
+
+</body>
+</html>
